@@ -1,0 +1,377 @@
+body, div.menu-overlay {
+    background: radial-gradient(127.12% 169.49% at 8.41% -24.53%, rgb(142, 215, 247) 0%, rgb(41, 130, 168) 32.9%, rgb(43, 55, 90) 68.75%) fixed;
+  }
+ body.html {
+    font-family: "Noto Sans", Poppins, Roboto, sans-serif;
+  }.content .btn-outline-brand,.popup__footer .form-actions .btn,.content .pager.pager-load-more a,.error-page a.btn,.video-call__button a,.resident-page__button-group a,.resident-page__content .btn,.product-item--prices .product-item--link a,.product-modal__button a,input.m-login__btn,.content a.page-register__reg,.popup a.btn,.popup-overlay .btn,.video-call .video-call__button a,.not-logged-in #user-register-form input.btn,.products-cards .products-card__link,.registration__submit .btn,.block-questions .btn,.documents-file-widget-wrap .documents-file-widget__label,.documents-file-widget-action { 
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.content .btn-outline-brand:hover,.product-modal__button a:hover,input.btn-outline-metal:hover,.select-custom-options.filter:hover,.show-all-assets:hover,.add-more-items > span:hover,.m-dropdown__body .m-nav__item a.btn:hover,.popup__footer .form-actions .btn:hover,.pager.pager-load-more a:hover,.profile-edit .form-submit-action input:hover,.error-page a.btn:hover,input.m-login__btn:hover,a.page-register__reg:hover,button.copy-button:hover,.profile-edit .form-actions .btn:hover,.resident-page__content .btn:hover,.video-call__button a:hover,.resident-page__button-group a:hover,.popup a.btn:hover,.popup-overlay .btn:hover,.product-item--link a:hover,.all-filters-container__buttons .btn:hover,.not-logged-in #user-register-form input.btn:hover,.products-cards .products-card__link:hover,.registration__submit .btn:hover,.block-questions .btn:hover,.documents-file-widget-wrap .documents-file-widget__label:hover,.documents-file-widget-action:hover { 
+  background-color: #FFFFFF !important;
+  color: #183760 !important;
+}
+.content .broadcast-page__content .broadcast-info .m-portlet__broadcast-buttons a.btn-outline-brand:hover {
+  color: #183760 !important;
+}
+.custom-file.custom-file--empty input,.custom-file.custom-file--empty span { 
+  color: #FFFFFF !important;;
+}
+.custom-file.custom-file--empty input:hover,.custom-file.custom-file--empty:hover span { 
+  color: #183760 !important;
+}
+.video-stream__links .video-stream__link a,.profile-edit .form-submit-action input,button.copy-button,.profile-edit .form-actions .btn { 
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+}
+.video-stream__links .video-stream__link a:hover { 
+  background-color: #FFFFFF !important;
+  color: #183760 !important;
+}
+.video-stream__links .video-stream__link a.fc-state-disabled,.filters-control__btn--disabled,.profile-edit .form-submit-action input.fc-state-disabled,.filters-control__btn--disabled,button.copy-button.fc-state-disabled,.filters-control__btn--disabled,.profile-edit .form-actions .btn.fc-state-disabled,.filters-control__btn--disabled { 
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  filter: brightness(0.6)
+  backdrop-filter: brightness(0.6)
+}
+.video-stream__links .video-stream__link a.fc-state-active,.profile-edit .form-submit-action input.fc-state-active,button.copy-button.fc-state-active,.profile-edit .form-actions .btn.fc-state-active { 
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  filter: brightness(1.2)
+}
+input.btn-outline-metal {
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.select-custom-options.filter {
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.add-more-items > span {
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.show-all-assets {
+  border: 1px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.m-dropdown__body .m-nav__item a.btn { 
+  border: 1px solid #FFFFFF !important;;
+}
+.m-dropdown__body .m-nav__item a.btn { 
+  color: #FFFFFF !important;;
+}
+.m-dropdown__body .m-nav__item a.btn { 
+  background-color: transparent !important;;
+}
+.popup__success-icon {
+  color: #3fbc53 !important;
+}
+.profile-edit .form-submit-action a {
+  color: #000000 !important;
+}
+.form-submit-action a#edit-cancel {
+  color: #000000 !important;
+}
+.popup--poll .poll__question input:checked ~ span,.popup--poll .poll__question input:checked ~ span:after,.profile-edit label input:checked ~span,.profile-edit label input:checked ~span:after,.not-logged-in #user-register-form input ~span:after,.not-logged-in #user-register-form input ~span,.all-filters-container__selects .m-checkbox input ~span,.all-filters-container__selects .m-checkbox input ~span:after { 
+  border-color: black !important;
+}
+.poll__result .poll__bar .bar .bar__inner { 
+  background: black !important;
+}
+.fancybox-close svg,.fc-button-group button:not([disabled]) span:before { 
+  color: black !important;
+}
+.calendar-wrap .fc-header-toolbar .fc-button-group .fc-button, .page-calendar .fc-unthemed .fc-toolbar button.fc-button:not([disabled]) { 
+  border: 1px solid black !important;
+}
+.page-display-switch span.active {
+  background:  !important;
+  border-color:  !important;
+  color:  !important;
+}
+.page-display-switch span {
+  background:  !important;
+  border: 1px solid  !important;
+  color:  !important;
+}
+.page-display-switch span.active svg { 
+  color: #FFFFFF !important;
+   margin-right: 10px;
+}
+.page-display-switch span svg { 
+  color: #575962 !important;
+   margin-right: 10px;
+}
+.calendar-card-wrap .card__date svg { 
+    margin-right: 10px;
+ min-width: 16px;}
+.broadcasts-listing .m-portlet__tabs ul li.active { 
+  color: #FFFFFF !important;
+}
+.calendar-wrap .fc-center, .section__date-filters-title { 
+  color: #FFFFFF !important;
+}
+.broadcasts-listing .m-portlet__tabs ul li:not(.active) { 
+  color: #c9c7c7 !important;
+}
+.broadcast-page__content .m-portlet__tabs .m-portlet__tabs-item { 
+  color: #c9c7c7 !important; 
+}
+.broadcast-page__content .m-portlet__tabs .m-portlet__tabs-item.active { 
+  border-bottom: 3px solid #FFFFFF !important; 
+  color: #FFFFFF !important; 
+}
+.resident-page__list-item.active:before { 
+  background-color: #FFFFFF !important; 
+}
+.broadcast-page__content .m-portlet__tabs .m-portlet__tabs-item,.resident-page__nav { 
+  border-bottom: 1px solid #FFFFFF !important; 
+}
+.m-portlet .calendar-container table td.fc-today { 
+  background-color: black;
+}
+.fc-event-container a { 
+  background-color: #FFFFFFA1 !important;
+}
+.fc .fc-row .fc-content-skeleton td { 
+  border-color: inherit !important;
+}
+.m-subheader.domains,.web-list__description.domains,.m-content.m-content--edit-button.domains { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.main-wraper__info-block > div {
+  background: rgba(11, 21, 52, 1) !important;
+}
+div.swiper-slide {
+  background: rgba(11, 21, 52, 1) !important;
+}
+div.swiper-slide__user {
+  background: inherit !important;
+}
+div.video-stream__item {
+  background: rgba(11, 21, 52, 1) !important;
+}
+div.related-broadcasts > div.node {
+  background: rgba(11, 21, 52, 1) !important;
+}
+div.broadcast-player__info {
+  background: rgba(11, 21, 52, 1) !important;
+}
+.view-votings .views-row a { 
+  background-color: rgba(11, 21, 52, 1);
+}
+.basic-page .m-portlet__body { 
+  background: rgba(11, 21, 52, 1) !important;
+}
+.basic-page .m-portlet__footer { 
+  background: rgba(11, 21, 52, 1);
+}
+.m-dropdown__body { 
+  background: rgba(11, 21, 52, 1);
+}
+.profile-edit .profile-edit__item .select-custom-options .dropdown-menu { 
+  background: rgba(11, 21, 52, 1);
+}
+.profile-edit .profile-edit__item .select-custom-options .dropdown-menu a { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.view a.m-portlet__user {
+  background: rgba(11, 21, 52, 1) !important;
+}
+.main-other__residents .residents a,.m-portlet__broadcast .mobile-tab,.event-page.event-page--custom.video-item,.domain-info,.user-profile .event-block,.event-page.event-page--custom.video-item .video-item-page__sidebar .m-portlet__body,.node .video-item-page__content .node-video-item,.playlist-listing .materials-content.m-portlet,.resident-page .resident-page__column,div.resident-preview,.resident-page__nav,.resident-page__burger,.resident-preview .stand,.domain-card,.password__form input,.content-wrap--dark .broadcasts-listing .m-portlet__body .m-datatable .node-broadcast-item,.m-portlet__users-head,.content-wrap--dark.page-votings .votings-page .fancybox,.partners-teaser__container,.partner-page .m-portlet,.broadcast-page .m-portlet__tabs ul li,.broadcast-page .broadcast-info,.m-portlet__content,.video-call-popup,.product-modal,.main-wraper__news,.main-wraper__events,.resident-swiper__item .resident__info,.calendar-wrap.event-block { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.broadcast-page__content .m-accordion__item { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.content .broadcasts-listing .materials-content.m-portlet { 
+  background-color: transparent;
+}
+.profile-edit .m-portlet.m-portlet__tabs-content,.broadcasts-listing .m-portlet__tabs ul,.profile-edit .m-portlet__tabs--vertical ul li:not(.active),.profile-edit .m-portlet__tabs--vertical ul li,.profile-edit .m-portlet__tabs--vertical ul li { 
+  background: rgba(20, 41, 77, 1) !important;
+}
+.broadcasts-listing .m-portlet__tabs ul li.active { 
+  background-color: rgba(20, 41, 77, 1) !important;
+}
+.calendar-wrap .calendar-controls .m-portlet.m-portlet--mobile, .section__date-filters, .users-list--tile .m-portlet__users-head {
+  background-color: rgba(20, 41, 77, 1) !important;
+}
+.popup--poll { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.popup .popup__footer { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.popup .m-portlet__body textarea { 
+  background-color: rgba(11, 21, 52, 1) !important; filter: brightness(1.2);
+}
+.m-content.popup { 
+  background-color: rgba(11, 21, 52, 1) !important;
+}
+.search-input-filter:not(.date-date) input {
+  background-color: rgba(20, 41, 77, 1) !important;
+}
+.all-filters .search-input-filter.date-date input {
+  background-color: rgba(20, 41, 77, 1) !important;
+}
+.m-login .m-login__wrapper .m-login__container .m-login__form .m-portlet__tabs-content .m-form--state .form-item .iti--allow-dropdown .iti__flag-container .iti__arrow { 
+  border-top: 4px solid #FFF !important;
+}
+.m-subheader__title,.votings-page__title,.main-other .residents__title,.partners-list-slider__title,.user-list-slider__title,.user-list-slider .custom-button-prev,.user-list-slider .custom-button-next,.partners-list-slider .custom-button-prev,.partners-list-slider .custom-button-next,.landing-page .links,.user-list-slider .cards__content .cards__item,.landing-page .links a { 
+  color: #FFFFFF !important;
+}
+body,.all-filters-container__selects .form-type-checkbox label,.domains-list h3.m-subheader__title,.broadcast-page__content h3.m-portlet__head-text,.related-broadcasts .attributes__right .attributes__right-desk,.m-content .m-portlet__body .teaser__header .teaser__title h2,.card__wrap,.card__wrap a,.page-user-edit .profile-edit-profile .m-radio,.page-user-edit .profile-edit-chat .m-radio,.profile-edit .m-portlet__tabs label,body .m-grid .m-login__top-text,body .m-grid .m-login__title,body .m-grid .m-label-input,body .m-grid .m-login .form-actions,body .m-grid .m-login .m-login__desc,body .m-grid .m-login .description.m-form__help,#edit-resend-code,#edit-change-mail,#edit-change-number,.m-login .m-login__wrapper .m-login__container .m-login__register .block-system .content .m-form .form-item input,.popup .m-portlet__body .form-type-textarea .form-control,.poll__item-title,.fancybox-skin,.m-portlet.campuz-form-group .university-add-group__add,.remove-button.btn.form-submit,.m-portlet .m-portlet__head .m-portlet__head-text,.profile-edit__item .input-group.date .input-group-text .la-calendar-check-o,.landing-page .resident__title,.broadcast-page__content .m-portlet__broadcast-sidebar .broadcast-info,.broadcast-page__content .m-portlet__broadcast-info-text,.broadcasts-listing .m-portlet__body .m-datatable .node-broadcast-item .teaser__body,.node.node-broadcast-item.node-teaser .teaser__header .teaser__date,.broadcast-page__content .program.broadcast-player__info .main-wraper__events-title,.main-wraper__events-title,.main-wraper__news-wrapper .news__card .news__card-footer,.broadcast-page__content .program.broadcast-player__info .broadcast-player__info-next-item-info a div,.related-broadcasts .attributes__right .attributes__right-status,.related-broadcasts,.broadcast-page__content .m-portlet__broadcast-sidebar .broadcast-info,.content .user-profile .m-portlet .m-portlet__user-right .m-portlet__user-title,.user-profile .m-portlet,.calendar-wrap .card__wrap .views-row,svg.svg.calendar-icon,.view-votings .votings-page__item-title,.basic-page .m-portlet__body .field-item,.m-card-user__details span,.m-dropdown__body .m-nav__item i,.m-dropdown__body .m-nav__item .m-nav__link-text,.profile-edit .profile-edit__item label,.profile-edit .m-portlet__tabs--vertical ul li,.poll__result .poll__bar .poll__progress .poll__progress-percent,.poll__result .poll__bar .poll__progress .poll__progress-text,.popup .popup__title.text-center,.popup .popup__title.text-center .poll__question-name,.popup .poll__description,.popup--poll .poll__question label,.m-content.popup .popup__success-title,.m-content.popup .m-portlet__head-title,.profile-edit .profile-edit__item .form-control,.profile-edit .profile-edit__item .select-custom-options button,.profile-edit .profile-edit__item .select-custom-options .dropdown-menu a span,.m-content.event-page .m-portlet__head-text,.node .video-item-page__content .node-video-item .attributes__right > div,.main-wraper__news .main-wraper__news-title,.main-wraper__events-wrapper .m-portlet__date-block-item .m-portlet__date-block-item-date,.main-wraper__events-wrapper .m-portlet__date-block-item .m-portlet__date-block-item-time,.main-wraper__events-wrapper .m-accordion-date__item-block-title,body .m-accordion-date__item-block .m-accordion-date__item-block-title,body .m-accordion-date__item-block-content .m-accordion-date__item-block-name,body .m-accordion__item .m-accordion__item-body,.m-portlet__date-block-item-date,.main-wraper__news .news__card-title,.main-other__video .video-stream__list  .playlist-item .teaser__title,.main-other__video .video-stream__list .teaser__title h2,.user-list__info > div,.m-portlet__user-col > div > div,.m-portlet__user-col svg path,.m-portlet__user-col .m-portlet__user-name,.event-page .session__place,.error-page-text,.m-portlet__users-head,.content-wrap--dark .fancybox-skin .poll__question-name,.content-wrap--dark .fancybox-skin .form-item .image-caption,.assets-content .materials-item a,.assets-content table td a,.resident-page__title,.resident-page__subtitle,.resident-page__body,.resident-page__body li,.resident-page__body li:before,.resident-page__contact-title .field-items .field-item,.resident-page__contact-text span,.feedback-form .m-form h2,.feedback-form .m-input,.info-advantages .container .title,.info-advantages .container .adv_text,.map-group .field-name-field-expo-map-person-name,.map-group .field-name-field-expo-map-contact-phone,.map-group .field-name-field-expo-map-contact-mail,.map-group .field-name-field-expo-map-person-position,.map-group .field-name-field-expo-map--citation,.persons-list-block__title,.persons-list-block .person--name,.screen__title h2,.info-advantages .container .title-subtitle,.products-block .products-wrapper .product-item--title,.video-call__title,.persons-list-block__subtitle,.products-block .products-wrapper .product-item .product-item--prices__price,.persons-list-block .person--mail,.persons-list-block .person--phone,.persons-list-block .person .person--position,.resident-page .field-name-field-company-address .field-items .field-item,.all-filters-container__selects .search-input-filter input.form-control,.all-filters-container__selects .search-input-filter span svg,.broadcasts-listing .m-portlet__body .m-datatable .node-broadcast-item .teaser__header svg,.error-page-desk p,.content-wrap--dark .news-page__content .news-page__content-title,.content-wrap--dark .news-page__content .news__card-date,.content-wrap--dark .news-page__content .news__card-time,.content-wrap--dark .news-page__content .news-page__content-text,.news__card-footer,.news-page__sidebar-title,.event-page .m-portlet .m-portlet__date-block-item,.password__change,.password__change-cancel,.main-wraper__news-wrapper .news__card .news__card-text,.fc-unthemed .fc-event .fc-title,.fc-unthemed .fc-event .fc-time,.resident-page__burger,.input-group-text > i,.input-group.date input,.input-group.date input::placeholder,.select2-search-field input,.select2-search-field input::placeholder,.main-wraper__organizer,.date-block,.main-wraper__events-wrapper { 
+  color: #FFF !important;
+}
+.anonymous-header a { 
+  color: var(--camp-header-text-color) !important;
+}
+.m-portlet__add-in-calendar-block-description,.profile-edit__item .description.m-form__help,.fc-unthemed th.fc-day-header > span { 
+  color: #FFF66 !important;
+}
+.broadcasts-listing .m-portlet__body .m-datatable .node-broadcast-item .teaser__header svg { 
+  margin-right: 11px;
+}
+.iti__selected-flag,.international_phone-number,.content-wrap--dark .m-login .m-login__wrapper .m-login__container .m-login__form .m-portlet__tabs-content .m-form--state .form-item input.input-auth_code,.iti__country-list { 
+  background: rgba(17, 39, 67, 1) !important;
+}
+.basic-page a,.content .m-portlet__user-right a:not(.event-block__main):not(.btn):not(.event-block__speaker),.assistant__mail,.partner-page__content a,.partner-page__place-item svg,a.partners-teaser__site-link,app-page-root app-chat-page a,.news-page__main a,.resident-page__content a,.resident-page .field-name-field-company-email .field-items .field-item a,a.page-register__info,.product-modal__description .product-modal__catalog-link a,.resident-page .field-name-field-company-phone .field-items .field-item { 
+  color: #FFF !important;
+}
+a.page-register__info:hover,.partner-page a:hover,.user-profile a:hover:not(.event-block__main):not(.btn):not(.event-block__speaker) { 
+  color: #5867dd !important;
+}
+#m_aside_left_minimize_toggle span { 
+  background: rgba(113, 106, 202, 1) !important;
+}
+.m-dropdown__wrapper .m-dropdown__header { 
+  background: #7645df !important;
+}
+.m-dropdown__wrapper .m-dropdown__arrow { 
+  color: #7645df !important;
+}
+.m-dropdown__wrapper .m-dropdown__inner { 
+  border: 1px solid #FFFFFF !important;
+}
+.m-portlet.m-portlet-colorized,.section__events .card__wrap .views-row,.node-type-contest .event-page .m-portlet,.node-type-section .event-page .m-portlet,.node-type-meeting .event-page .m-portlet { 
+  background-color: rgba(11, 21, 52, 0.4) !important;
+}
+.m-portlet__materials-item a { 
+  color: #5867dd !important;
+}
+.m-portlet__materials-item { 
+  background: #FFFFFF !important;
+}
+.assets-content .materials-item a svg { 
+  color: #FFFFFF !important;
+}
+.assets-content table td a svg { 
+  color: #FFFFFF !important;
+}
+.m-portlet.m-portlet-colorized,.section__events .card__wrap .views-row,.node-type-contest .event-page .m-portlet,.node-type-section .event-page .m-portlet,.node-type-meeting .event-page .m-portlet { 
+  background-color: rgba(11, 21, 52, 0.4) !important; 
+ color: #FFF !important 
+}
+.m-datatable > .m-datatable__table, .m-datatable > .m-datatable__table .even > td,table.quiz-votes, table.quiz-votes .even > td { 
+  background-color: rgba(11, 21, 52, 1) !important; 
+ color: #FFF !important; 
+ filter: brightness(1.2); backdrop-filter: brightness(1.2); 
+}
+.m-datatable > .m-datatable__table .m-datatable__body .m-datatable__row.m-datatable__row:hover,table.quiz-votes .m-datatable__body .m-datatable__row.m-datatable__row:hover { 
+  filter: brightness(1.3); backdrop-filter: brightness(1.4); 
+}
+.poll-answer-wrapper table:not(.sticky-header) thead tr th { 
+  background-color: inherit !important;
+}
+body .m-login__container .m-login__title,body .m-login__container .auth-tabs .auth li,body .m-grid .m-login__account .m-login__account-msg,body .m-grid .m-form__personal-data,body .m-grid .m-form__phone-title,body .m-grid .m-login__container .m-label-input,body .m-login__container .sign-up-text,body .m-grid label[for="edit-phone"] { 
+  color: rgba(66, 232, 224, 1) !important;
+}
+.iti__selected-dial-code,.iti__country-name,.iti__dial-code,.international_phone-number,.m-login__form .m-portlet__tabs-content .m-form--state .form-item input { 
+  color: rgba(66, 232, 224, 1) !important;
+}
+.m-login__account a,.error-page-desk a,.m-form__personal-data a,.col.m--align-right.m-login__form-right a,a.sign-up-link,.m-login__bottom-text a,.m-login__form-action.form-actions.form-wrapper > div a { 
+  color: rgba(66, 232, 224, 1) !important;
+}
+.m-login__account a:hover,.error-page-desk a:hover,.m-form__personal-data a:hover,.col.m--align-right.m-login__form-right a:hover,a.sign-up-link:hover,.m-login__bottom-text a:hover,.m-login__form-action.form-actions.form-wrapper > div a:hover { 
+  color: rgba(66, 232, 224, 1) !important;
+}
+.quiz-page iframe .voting { 
+ background-color: rgba(11, 21, 52, 1); 
+}
+.view-votes-administration .m-portlet { 
+  background-color: transparent;
+}
+.user-profile .m-portlet__user-title,.user-profile .m-portlet__user-description-row,.block-system .content .user-profile .row.user__edit-vote,.assistant:last-child,.domain-card__header,.domain-info__content,.domain-title,.node-type-section .section__info,.node-type-section .section__head,.content-wrap--dark .feedback-form .m-input { 
+  border-bottom: 1px solid #FFF4B !important;
+}
+.block-system .content .user-profile .row.user__edit-vote,.assistant,.domain-description,.domain-card__link,.partner-page__description,.partner-page .m-accordion .m-accordion__item .m-accordion__item-body,.event-page .m-portlet .m-accordion-date__item-block,.m-portlet__footer { 
+  border-top: 1px solid #FFF4B !important;
+}
+.m-topbar__userpic--mobile svg,.open-menu-btn svg,.resident-page__nav--list-open .resident-page__burger svg { 
+  color: rgba(255, 255, 255, 1) !important;
+}
+.resident-page__nav--list-open .resident-page__list-item a,.resident-page__nav--list-open .resident-page__burger span { 
+  color: black !important;
+}
+.resident-page__nav--list-open .resident-page__burger,.resident-page__nav--list-open .resident-page__list { 
+  background: black !important;
+}
+.region.region-footer { 
+  background-color: #000000 !important;
+}
+.region.region-footer .footer-block { 
+  color: #FFFFFF !important;
+}
+.region.region-footer .footer-block a { 
+  color: #FFFFFF !important;
+}
+.region.region-footer .footer-block a:hover { 
+  color: #FFFFFF !important;
+}
+.fc-button-group button,.filters-control__btn { 
+  background: #FFFFFF !important;
+}
+.fc-button-group button.fc-state-active,.fc-left button:not(.fc-state-disabled),.filters-control__btn:not(.filters-control__btn--disabled) { 
+  background: #FFFFFF !important;
+}
+.fc-button-group button,.fc-button-group button span :before,.filters-control__btn { 
+  color: #FFFFFF !important;
+}
+.fc-left button:not(.fc-state-disabled) span:before,.fc-button-group button.fc-state-active,.filters-control__btn:not(.filters-control__btn--disabled) { 
+  color: #FFFFFF !important;
+}
+.all-filters-container__buttons .btn { 
+  background: #FFFFFF !important;
+}
+.all-filters-container__buttons .btn { 
+  color: #FFFFFF !important;
+}
+.all-filters-container__buttons .btn, .all-filters-container__selects .filter { 
+  border-radius: 0px !important;;
+}
+.all-filters-container__buttons .btn:hover { 
+  border: 0px !important;
+}
+.main-wraper__news a.news__card { 
+  background: inherit !important;
+}
+#admin-menu a, #admin-menu li > span { 
+  color: #eee !important;
+}
+.news__card-date svg,.news__card-time svg { 
+  vertical-align: inherit !important;
+}

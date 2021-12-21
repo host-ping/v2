@@ -1,0 +1,234 @@
+{"level":"info","msg":"Using TOML configuration file /traefik.toml","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Traefik version v1.7.2 built on 2018-10-04_01:44:36PM","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://docs.traefik.io/basics/#collected-data\n","time":"2021-12-13T19:15:22+03:00"}
+{"level":"error","msg":"Failed to read new account, ACME data conversion is not available : permissions 664 for acme.json are too open, please use 600","time":"2021-12-13T19:15:22+03:00"}
+{"level":"error","msg":"Error initializing provider ACME: unable to get ACME account : permissions 664 for acme.json are too open, please use 600","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Preparing server dashboard \u0026{Address::8080 TLS:\u003cnil\u003e Redirect:\u003cnil\u003e Auth:0xc0001aab40 WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000325e20} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Preparing server http \u0026{Address::80 TLS:\u003cnil\u003e Redirect:0xc000364780 Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000325e60} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Preparing server https \u0026{Address::443 TLS:0xc0002c1200 Redirect:\u003cnil\u003e Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000325e80} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Starting server on :8080","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Starting server on :80","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Starting provider configuration.ProviderAggregator {}","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Starting server on :443","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Starting provider *docker.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":null,\"Trace\":false,\"TemplateVersion\":2,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"unix:///var/run/docker.sock\",\"Domain\":\"grfox.ru\",\"TLS\":null,\"ExposedByDefault\":true,\"UseBindPortIP\":false,\"SwarmMode\":false,\"Network\":\"web\"}","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:15:22+03:00"}
+{"level":"info","msg":"I have to go...","time":"2021-12-13T19:16:09+03:00"}
+{"level":"info","msg":"Stopping server gracefully","time":"2021-12-13T19:16:09+03:00"}
+{"level":"info","msg":"Server stopped","time":"2021-12-13T19:16:09+03:00"}
+{"level":"info","msg":"Shutting down","time":"2021-12-13T19:16:09+03:00"}
+{"level":"info","msg":"Using TOML configuration file /traefik.toml","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Traefik version v1.7.2 built on 2018-10-04_01:44:36PM","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://docs.traefik.io/basics/#collected-data\n","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Preparing server http \u0026{Address::80 TLS:\u003cnil\u003e Redirect:0xc00018b9c0 Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc0001dc560} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Preparing server https \u0026{Address::443 TLS:0xc0002af170 Redirect:\u003cnil\u003e Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc0001dc500} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting server on :80","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Preparing server dashboard \u0026{Address::8080 TLS:\u003cnil\u003e Redirect:\u003cnil\u003e Auth:0xc000465710 WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc0001dc520} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting server on :443","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting provider configuration.ProviderAggregator {}","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting server on :8080","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting provider *docker.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":null,\"Trace\":false,\"TemplateVersion\":2,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"unix:///var/run/docker.sock\",\"Domain\":\"grfox.ru\",\"TLS\":null,\"ExposedByDefault\":true,\"UseBindPortIP\":false,\"SwarmMode\":false,\"Network\":\"web\"}","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Starting provider *acme.Provider {\"Email\":\"at@1adm.ru\",\"ACMELogging\":false,\"CAServer\":\"https://acme-v02.api.letsencrypt.org/directory\",\"Storage\":\"acme.json\",\"EntryPoint\":\"https\",\"KeyType\":\"\",\"OnHostRule\":true,\"OnDemand\":false,\"DNSChallenge\":null,\"HTTPChallenge\":{\"EntryPoint\":\"http\"},\"TLSChallenge\":null,\"Domains\":null,\"Store\":{}}","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-13T19:16:18+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"The key type is empty. Use default key type 4096.","time":"2021-12-13T19:16:19+03:00"}
+{"level":"info","msg":"Register...","time":"2021-12-13T19:16:26+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:16:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:16:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:16:36+03:00"}
+{"level":"info","msg":"I have to go...","time":"2021-12-13T19:17:22+03:00"}
+{"level":"info","msg":"Stopping server gracefully","time":"2021-12-13T19:17:22+03:00"}
+{"level":"info","msg":"Server stopped","time":"2021-12-13T19:17:22+03:00"}
+{"level":"error","msg":"Provider connection error context canceled, retrying in 539.366525ms","time":"2021-12-13T19:17:22+03:00"}
+{"level":"info","msg":"Shutting down","time":"2021-12-13T19:17:22+03:00"}
+{"level":"info","msg":"Using TOML configuration file /traefik.toml","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Traefik version v1.7.2 built on 2018-10-04_01:44:36PM","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://docs.traefik.io/basics/#collected-data\n","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Preparing server dashboard \u0026{Address::8080 TLS:\u003cnil\u003e Redirect:\u003cnil\u003e Auth:0xc000805110 WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000911b00} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Preparing server http \u0026{Address::80 TLS:\u003cnil\u003e Redirect:0xc0007a6340 Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000911b20} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Preparing server https \u0026{Address::443 TLS:0xc000293290 Redirect:\u003cnil\u003e Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc000911b40} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting server on :8080","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting server on :80","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting provider configuration.ProviderAggregator {}","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting provider *docker.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":null,\"Trace\":false,\"TemplateVersion\":2,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"unix:///var/run/docker.sock\",\"Domain\":\"grfox.ru\",\"TLS\":null,\"ExposedByDefault\":true,\"UseBindPortIP\":false,\"SwarmMode\":false,\"Network\":\"web\"}","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting server on :443","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Starting provider *acme.Provider {\"Email\":\"at@1adm.ru\",\"ACMELogging\":false,\"CAServer\":\"https://acme-v02.api.letsencrypt.org/directory\",\"Storage\":\"acme.json\",\"EntryPoint\":\"https\",\"KeyType\":\"\",\"OnHostRule\":true,\"OnDemand\":false,\"DNSChallenge\":null,\"HTTPChallenge\":{\"EntryPoint\":\"http\"},\"TLSChallenge\":null,\"Domains\":null,\"Store\":{}}","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T19:17:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T19:17:23+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-13T19:27:24+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_mariadb_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:36+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_mariadb_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:36+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_php-fpm_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T22:52:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T22:52:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T22:52:36+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_mariadb_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:36+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_php-fpm_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:36+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_mariadb_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:37+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_php-fpm_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:37+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_cli_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:38+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_mariadb_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:38+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/m1-grfox_php-fpm_1'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-13T22:52:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-13T22:52:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-13T22:52:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-13T22:52:38+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"nginx.m1-grfox.grfox.ru\" detected thanks to rule \"Host:nginx.m1-grfox.grfox.ru\" : unable to generate a certificate for the domains [nginx.m1-grfox.grfox.ru]: acme: Error -\u003e One or more domains had a problem:\n[nginx.m1-grfox.grfox.ru] acme: Error 400 - urn:ietf:params:acme:error:dns - DNS problem: NXDOMAIN looking up A for nginx.m1-grfox.grfox.ru - check that a DNS record exists for this domain\n","time":"2021-12-13T22:52:48+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"mariadb.m1-grfox.grfox.ru\" detected thanks to rule \"Host:mariadb.m1-grfox.grfox.ru\" : unable to generate a certificate for the domains [mariadb.m1-grfox.grfox.ru]: acme: Error -\u003e One or more domains had a problem:\n[mariadb.m1-grfox.grfox.ru] acme: Error 400 - urn:ietf:params:acme:error:dns - DNS problem: NXDOMAIN looking up A for mariadb.m1-grfox.grfox.ru - check that a DNS record exists for this domain\n","time":"2021-12-13T22:52:48+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"cli.m1-grfox.grfox.ru\" detected thanks to rule \"Host:cli.m1-grfox.grfox.ru\" : unable to generate a certificate for the domains [cli.m1-grfox.grfox.ru]: acme: Error -\u003e One or more domains had a problem:\n[cli.m1-grfox.grfox.ru] acme: Error 400 - urn:ietf:params:acme:error:dns - DNS problem: NXDOMAIN looking up A for cli.m1-grfox.grfox.ru - check that a DNS record exists for this domain\n","time":"2021-12-13T22:52:48+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"php-fpm.m1-grfox.grfox.ru\" detected thanks to rule \"Host:php-fpm.m1-grfox.grfox.ru\" : unable to generate a certificate for the domains [php-fpm.m1-grfox.grfox.ru]: acme: Error -\u003e One or more domains had a problem:\n[php-fpm.m1-grfox.grfox.ru] acme: Error 400 - urn:ietf:params:acme:error:dns - DNS problem: NXDOMAIN looking up A for php-fpm.m1-grfox.grfox.ru - check that a DNS record exists for this domain\n","time":"2021-12-13T22:52:48+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"mailhog.m1-grfox.grfox.ru\" detected thanks to rule \"Host:mailhog.m1-grfox.grfox.ru\" : unable to generate a certificate for the domains [mailhog.m1-grfox.grfox.ru]: acme: Error -\u003e One or more domains had a problem:\n[mailhog.m1-grfox.grfox.ru] acme: Error 400 - urn:ietf:params:acme:error:dns - DNS problem: NXDOMAIN looking up A for mailhog.m1-grfox.grfox.ru - check that a DNS record exists for this domain\n","time":"2021-12-13T22:52:49+03:00"}
+{"level":"info","msg":"I have to go...","time":"2021-12-14T13:51:37+03:00"}
+{"level":"info","msg":"Stopping server gracefully","time":"2021-12-14T13:51:37+03:00"}
+{"level":"info","msg":"Server stopped","time":"2021-12-14T13:51:37+03:00"}
+{"level":"info","msg":"Shutting down","time":"2021-12-14T13:51:37+03:00"}
+{"level":"info","msg":"Using TOML configuration file /traefik.toml","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Traefik version v1.7.2 built on 2018-10-04_01:44:36PM","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://docs.traefik.io/basics/#collected-data\n","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Preparing server https \u0026{Address::443 TLS:0xc0002e93b0 Redirect:\u003cnil\u003e Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc00002bc60} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Preparing server dashboard \u0026{Address::8080 TLS:\u003cnil\u003e Redirect:\u003cnil\u003e Auth:0xc0001ab8f0 WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc00002bcc0} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting server on :443","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Preparing server http \u0026{Address::80 TLS:\u003cnil\u003e Redirect:0xc0004ac5c0 Auth:\u003cnil\u003e WhitelistSourceRange:[] WhiteList:\u003cnil\u003e Compress:false ProxyProtocol:\u003cnil\u003e ForwardedHeaders:0xc00002bc40} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting server on :8080","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting provider configuration.ProviderAggregator {}","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting server on :80","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting provider *docker.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":null,\"Trace\":false,\"TemplateVersion\":2,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"unix:///var/run/docker.sock\",\"Domain\":\"grfox.ru\",\"TLS\":null,\"ExposedByDefault\":true,\"UseBindPortIP\":false,\"SwarmMode\":false,\"Network\":\"web\"}","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Starting provider *acme.Provider {\"Email\":\"at@1adm.ru\",\"ACMELogging\":false,\"CAServer\":\"https://acme-v02.api.letsencrypt.org/directory\",\"Storage\":\"acme.json\",\"EntryPoint\":\"https\",\"KeyType\":\"\",\"OnHostRule\":true,\"OnDemand\":false,\"DNSChallenge\":null,\"HTTPChallenge\":{\"EntryPoint\":\"http\"},\"TLSChallenge\":null,\"Domains\":null,\"Store\":{}}","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-14T14:38:18+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T14:38:19+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T14:44:37+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T14:44:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T14:44:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T14:44:38+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T14:44:47+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T14:44:47+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T14:44:47+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-14T14:48:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:15:37+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:15:37+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:15:37+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:15:41+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:15:51+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:15:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:15:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:15:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:15:52+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:20+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:16:20+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:21+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:16:21+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:16:21+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:16:21+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:16:21+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:22+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:16:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:16:23+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:16:23+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:52+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:16:52+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:52+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:16:52+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/matomo'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:16:53+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:16:53+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:16:54+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:16:54+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:16:54+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:17:11+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:17:11+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:17:16+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:17:16+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:17:16+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:17:16+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/epic_black'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:50:16+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:50:17+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:50:17+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:50:17+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"epic-black.grfox.ru\" detected thanks to rule \"Host:epic-black.grfox.ru\" : unable to generate a certificate for the domains [epic-black.grfox.ru]: acme: Error 405 -  - \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e405 Not Allowed\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e405 Not Allowed\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n","time":"2021-12-14T21:50:17+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:50:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:50:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:50:19+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/gifted_hertz'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:50:19+03:00"}
+{"level":"info","msg":"Skipping same configuration for provider docker","time":"2021-12-14T21:50:19+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:50:21+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:50:21+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:50:21+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"gifted-hertz.grfox.ru\" detected thanks to rule \"Host:gifted-hertz.grfox.ru\" : unable to generate a certificate for the domains [gifted-hertz.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:50:21+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/angry_germain'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:50:34+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:50:34+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:50:34+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:50:34+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"angry-germain.grfox.ru\" detected thanks to rule \"Host:angry-germain.grfox.ru\" : unable to generate a certificate for the domains [angry-germain.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:50:34+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/angry_hopper'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:50:34+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:50:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:50:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:50:36+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"angry-hopper.grfox.ru\" detected thanks to rule \"Host:angry-hopper.grfox.ru\" : unable to generate a certificate for the domains [angry-hopper.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:50:36+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:53:51+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:53:51+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:53:51+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/determined_einstein'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:53:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:53:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:53:52+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:53:52+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"determined-einstein.grfox.ru\" detected thanks to rule \"Host:determined-einstein.grfox.ru\" : unable to generate a certificate for the domains [determined-einstein.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:53:53+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:53:56+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:53:56+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:53:56+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/interesting_albattani'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:53:57+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:53:58+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:53:58+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:53:58+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"interesting-albattani.grfox.ru\" detected thanks to rule \"Host:interesting-albattani.grfox.ru\" : unable to generate a certificate for the domains [interesting-albattani.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:53:58+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/romantic_blackwell'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:53:59+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:54:00+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:54:00+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:54:00+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"romantic-blackwell.grfox.ru\" detected thanks to rule \"Host:romantic-blackwell.grfox.ru\" : unable to generate a certificate for the domains [romantic-blackwell.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:54:00+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/priceless_franklin'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:54:02+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:54:02+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:54:02+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:54:02+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:54:04+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:54:04+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:54:04+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"priceless-franklin.grfox.ru\" detected thanks to rule \"Host:priceless-franklin.grfox.ru\" : unable to generate a certificate for the domains [priceless-franklin.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:54:04+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:55:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:55:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:55:30+03:00"}
+{"level":"warning","msg":"Could not find network named 'web' for container '/vibrant_poincare'! Maybe you're missing the project's prefix in the label? Defaulting to first available network.","time":"2021-12-14T21:57:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:57:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:57:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:57:30+03:00"}
+{"level":"error","msg":"Unable to obtain ACME certificate for domains \"vibrant-poincare.grfox.ru\" detected thanks to rule \"Host:vibrant-poincare.grfox.ru\" : unable to generate a certificate for the domains [vibrant-poincare.grfox.ru]: Failed to post JWS message. -\u003e failed to sign content -\u003e failed to sign content -\u003e square/go-jose: Error generating nonce: server did not respond with a proper nonce header","time":"2021-12-14T21:57:30+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :80","time":"2021-12-14T21:58:12+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :443","time":"2021-12-14T21:58:12+03:00"}
+{"level":"info","msg":"Server configuration reloaded on :8080","time":"2021-12-14T21:58:12+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-15T14:38:18+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-15T14:38:20+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-16T14:38:18+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-16T14:38:19+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-17T14:38:18+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-17T14:38:19+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-18T14:38:18+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-18T14:38:19+03:00"}
+{"level":"info","msg":"Testing certificate renew...","time":"2021-12-19T14:38:18+03:00"}
+{"level":"warning","msg":"A new release has been found: 2.5.5. Please consider updating.","time":"2021-12-19T14:38:19+03:00"}
+{"level":"info","msg":"I have to go...","time":"2021-12-19T15:03:53+03:00"}
+{"level":"info","msg":"Stopping server gracefully","time":"2021-12-19T15:03:53+03:00"}
+{"level":"info","msg":"Server stopped","time":"2021-12-19T15:03:53+03:00"}
+{"level":"info","msg":"Shutting down","time":"2021-12-19T15:03:53+03:00"}

@@ -1,0 +1,40 @@
+version: "2.4"
+
+services:
+  traefik:
+    image: traefik:2.3
+    environment:
+      TRAEFIK_API_DASHBOARD: "false"
+      TRAEFIK_API_INSECURE: "false"
+      TRAEFIK_PROVIDERS_DOCKER: "true"
+      TRAEFIK_PROVIDERS_DOCKER_EXPOSEDBYDEFAULT: "false"
+      TRAEFIK_ENTRYPOINTS_WEB_ADDRESS: ":80"
+      TRAEFIK_ENTRYPOINTS_WEBSECURE_ADDRESS: ":443"
+      TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT: "true"
+      TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_EMAIL: "kudlov.r@i20.biz"
+      TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_STORAGE: "/letsencrypt/acme.json"
+      TRAEFIK_CERTIFICATESRESOLVERS_LETSENCRYPT_ACME_TLSCHALLENGE: "true"
+      TRAEFIK_ACCESSLOG: "true"
+      TRAEFIK_LOG_LEVEL: "INFO"
+      TRAEFIK_ACCESSLOG_FORMAT: "json"
+      TRAEFIK_ENTRYPOINTS_WEB_HTTP_REDIRECTIONS_ENTRYPOINT_TO: "websecure"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./docker-runtime/letsencrypt:/letsencrypt
+    restart: always
+    networks:
+      - proxy-net
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+        mode: host
+      - target: 443
+        published: 443
+        protocol: tcp
+        mode: host
+
+networks:
+  proxy-net:
+    external: true
+

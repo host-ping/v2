@@ -1,0 +1,83 @@
+version: "2.4"
+
+services:
+  nginx:
+    image: registry.i20.biz/campuz/web/nginx:${CAMPUZ_VERSION}
+    networks:
+      - proxy-net
+      - default
+    env_file: .env
+    restart: always
+    volumes_from:
+      - php-fpm
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.rule=Host(`${CAMPUZ_SITE_NAME}`)"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}_nginx.loadbalancer.server.port=8080"
+      - "traefik.docker.network=proxy-net"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.entrypoints=web, websecure"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.tls=true"
+    depends_on:
+      - php-fpm
+    extra_hosts:
+      - "${CAMPUZ_SITE_NAME}:172.17.0.1"
+
+  php-fpm:
+    image: registry.i20.biz/campuz/web/php-fpm:${CAMPUZ_VERSION}
+    restart: always
+    env_file: .env
+    volumes:
+      - ./docker-runtime/site:/var/www/html/sites/${CAMPUZ_SITE_NAME}
+      - ./docker-runtime/php-settings:/var/www/site-php/campuz-site
+      - ./docker-runtime/mr:/var/www/html/mr
+    extra_hosts:
+      - "${CAMPUZ_SITE_NAME}:172.17.0.1"
+
+  cli:
+    image: registry.i20.biz/campuz/web/cli:${CAMPUZ_VERSION}
+    restart: always
+    env_file: .env
+    working_dir: /var/www/html/sites/${CAMPUZ_SITE_NAME}
+    volumes_from:
+      - nginx
+      - php-fpm
+    extra_hosts:
+      - "${CAMPUZ_SITE_NAME}:172.17.0.1"
+
+  crond:
+    image: registry.i20.biz/campuz/web/cli:${CAMPUZ_VERSION}
+    restart: always
+    env_file: .env
+    command: crond -f
+    user: root
+    working_dir: /var/www/html/sites/${CAMPUZ_SITE_NAME}
+    volumes:
+      - ./docker-runtime/crontab:/crontab
+    volumes_from:
+      - nginx
+      - php-fpm
+
+  socketio:
+    image: registry.i20.biz/campuz/web/socketio-server:latest
+    networks:
+      - proxy-net
+      - default
+    volumes:
+      - ./docker-runtime/socketio:/app/config
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nodejs.rule=Host(`socketio.${CAMPUZ_SITE_NAME}`)"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}_nodejs.loadbalancer.server.port=3000"
+      - "traefik.docker.network=proxy-net"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nodejs.entrypoints=web, websecure"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nodejs.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nodejs.tls=true"
+    restart: always
+    extra_hosts:
+      - "${CAMPUZ_SITE_NAME}:172.17.0.1"
+
+networks:
+  proxy-net:
+    external: true
+

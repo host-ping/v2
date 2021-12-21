@@ -1,0 +1,68 @@
+:root {
+    --camp-main-page-program-button-background: rgba(235, 75, 171, 1);
+    --camp-main-page-program-button-text-color: rgba(255, 255, 255, 1);
+    --camp-dividers-color: ;
+    --camp-scrollbar-thumb-color: ;
+    --camp-icons-color: black;
+    --camp-active-icons-color: black;
+    --camp-header-background: black;
+    --camp-header-text-color: rgba(255, 255, 255, 1);
+    --camp-main-background: radial-gradient(127.12% 169.49% at 8.41% -24.53%, rgb(142, 215, 247) 0%, rgb(41, 130, 168) 32.9%, rgb(43, 55, 90) 68.75%) fixed;
+    --camp-font: "Noto Sans", Poppins, Roboto, sans-serif;
+    --camp-active-el-color: black;
+    --camp-bg-color: rgba(11, 21, 52, 1);
+    --camp-bg-content-color: rgba(11, 21, 52, 1);
+    --camp-bg-additional-content-color: rgba(11, 21, 52, 1);
+    --camp-bg-auth-color: rgba(24, 55, 96, 1);
+    --camp-text-auto-color: rgba(66, 232, 224, 1);
+    --camp-portlets-background: rgba(11, 21, 52, 0.4);
+    --camp-additional-color: rgba(20, 41, 77, 1);
+    --camp-search-color: rgba(20, 41, 77, 1);
+    --camp-auth-number-color: rgba(17, 39, 67, 1);
+    --camp-header-icon-color: rgba(255, 255, 255, 1);
+    --camp-menu-text-color: black;
+    --camp-menu-web-menu-header-icon-color: rgba(113, 106, 202, 1);
+    --camp-menu-background: black;
+    --camp-menu-header-color: black;
+
+    --camp-button-border-color: ;
+    --camp-button-text-color: ;
+    --camp-button-bg-color: ;
+    --camp-button-hover-text-color: ;
+    --camp-button-hover-bg-color: ;
+    --camp-button-icon-color: ;
+    --camp-button-radius: 0px;
+
+    --camp-elements-tab-bg-color: ;
+    --camp-elements-active-tab-bg-color: ;
+    --camp-elements-tab-text-color: ;
+    --camp-elements-active-tab-text-color: ;
+    --camp-elements-tab-icon-color: ;
+    --camp-elements-active-tab-icon-color: ;
+
+    --camp-tabs-tab-text-color: ;
+    --camp-tabs-active-tab-text-color: ;
+    --camp-tabs-active-tab-bg-color: ;
+
+    --camp-content-title-color: ;
+    --camp-content-text-color: ;
+    --camp-content-header-color: ;
+    --camp-content-link-color: ;
+    --camp-content-hover-link-color: ;
+    --camp-portlets-background-brightness-hover: ;
+
+    --camp-media-text-color: ;
+    --camp-media-background-color: ;
+
+    --camp-footer-text-color: ;
+    --camp-footer-background-color: ;
+    --camp-footer-link-color: ;
+    --camp-footer-hover-link-color: ;
+
+    --camp-filter-button-tab-color: ;
+    --camp-filter-button-tab-text-color: ;
+    --camp-filter-button-active-tab-color: ;
+    --camp-filter-button-active-tab-text-color: ;
+    --camp-filter-button-bg-color: ;
+    --camp-filter-button-text-color: ;
+  }

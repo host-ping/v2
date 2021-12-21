@@ -1,0 +1,55 @@
+version: "2.4"
+
+services:
+  nginx:
+    image: registry.i20.biz/campuz/web/nginx:6.6.3
+    networks:
+      - proxy-net
+      - default
+    env_file: .env
+    restart: always
+    volumes_from:
+      - php-fpm
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.rule=Host(`${CAMPUZ_SITE_NAME}`)"
+      - "traefik.http.services.${COMPOSE_PROJECT_NAME}_nginx.loadbalancer.server.port=8080"
+      - "traefik.docker.network=proxy-net"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.entrypoints=web, websecure"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}_nginx.tls=true"
+    depends_on:
+      - php-fpm
+
+  php-fpm:
+    image: registry.i20.biz/campuz/web/php-fpm:6.6.3
+    restart: always
+    env_file: .env
+    volumes:
+      - ./docker-runtime/site:/var/www/html/sites/${CAMPUZ_SITE_NAME}
+      - ./docker-runtime/php-settings:/var/www/site-php/campuz-site
+
+  cli:
+    image: registry.i20.biz/campuz/web/cli:6.6.3
+    env_file: .env
+    restart: always
+    volumes_from:
+      - nginx
+      - php-fpm
+
+  ansible:
+    image: registry.i20.biz/campuz/web/ansible:250fcaa49df89b0e899d2b0bd98788aaa585e664
+    environment:
+      VARIABLES_PATH: /opt/admineventsggeru/docker-runtime/ansible/vars
+    restart: always
+    volumes:
+      - /opt/:/opt/
+      - /var/run/docker.sock:/var/run/docker.sock
+      - $HOME/.docker:/root/.docker
+      - ./docker-runtime/ansible/main.py:/app/main.py
+      - ./docker-runtime/ansible/docker-compose.j2:/srv/campuz-devops/roles/copy_site/templates/docker-compose.j2
+
+networks:
+  proxy-net:
+    external: true
+

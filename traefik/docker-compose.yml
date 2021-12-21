@@ -1,0 +1,40 @@
+version: '3.7'
+networks:
+  web:
+    external: true
+
+services:
+  traefik:
+    image: traefik:1.7.2-alpine
+    container_name: traefik
+    hostname: traefik
+    command:
+      - --logLevel=INFO
+      - --accesslog
+      - --accessLog.format=json
+      - --accessLog.filePath=/var/log/traefik/access.log
+      - --traefikLog
+      - --traefikLog.format=json
+      - --traefikLog.filePath=/var/log/traefik/traefik.log
+      - --accessLog.fields.defaultMode=keep
+      - --accessLog.fields.names="Username=drop Hostname=drop ClientUsername=drop RequestPort=drop"
+      - --accessLog.fields.headers.names="User-Agent=keep Authorization=drop Content-Type=keep"
+      - --accessLog.fields.headers.defaultMode=keep
+
+    restart: unless-stopped
+#    security_opt:
+#     - no-new-privileges:true
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - $PWD/logs/:/var/log/traefik/
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - $PWD/traefik.toml:/traefik.toml:ro
+      - $PWD/acme.json:/acme.json
+    labels:
+      - traefik.frontend.rule=Host:traefik.grfox.ru
+      - traefik.port=8080
+    networks:
+      - web
