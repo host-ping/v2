@@ -12,7 +12,7 @@ services:
     env_file: .env
     volumes:
       - ./docker-runtime/certs:/etc/certs
-        #      - ./docker-runtime/postconf/master.cf:/etc/postfix/master.cf
+      - ./docker-runtime/postconf/master.cf:/etc/postfix/master.cf
 
 networks:
   proxy-net:
